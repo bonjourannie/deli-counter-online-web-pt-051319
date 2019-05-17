@@ -26,4 +26,3 @@ def now_serving
     array.shift
   end
 end
-end
