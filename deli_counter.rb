@@ -13,7 +13,7 @@ def line(line)
   end
 end
 
-def take_a_number(katz_deli, name)
+def take_a_number(line, name)
   if line.length == 0 
     puts "The line is currently empty."
   katz_deli.push(name)
