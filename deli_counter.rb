@@ -18,7 +18,7 @@ def take_a_number(line, name)
     puts "The line is currently empty."
   line.push(name)
 else
-  puts "Welcome, #{name}. You are number #{line.length} in line."
+  puts "Welcome, #{name}. You are number #{line.length + 1} in line."
 end
 end
 
