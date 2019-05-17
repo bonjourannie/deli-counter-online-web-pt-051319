@@ -14,6 +14,8 @@ def line(line)
 end
 
 def take_a_number(live, name)
+  if line.length == 0
+    puts 
 end
 
 def now_serving
